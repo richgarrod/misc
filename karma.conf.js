@@ -4,6 +4,7 @@ module.exports = function(config) {
         frameworks: ['jasmine'],
         files: [
             'JS/Classes/DataReporter.js',
+            'JS/Classes/DataCapture.js',
             'Test/**'
         ],
     });
