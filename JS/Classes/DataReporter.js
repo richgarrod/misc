@@ -13,7 +13,7 @@ var classes = classes || {};
 	}
 
 	/**
-	 * This method is storing the new data in the class' instance property "data" and returning wherever the data has changed or not.
+	 * This method is storing the new data in the class' instance property "data" and returning whethe the data has changed or not.
 	 * 
 	 * @name store
 	 * @param {number} id - Id of the data to store.
