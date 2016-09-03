@@ -4,7 +4,7 @@ var classes = classes || {};
     'use strict';
 
     /**
-     * This class sets up data capture on the page
+     * This class sets construct the DataCapture
      *
      * @constructs DataCapture
      */
@@ -16,6 +16,7 @@ var classes = classes || {};
      * This function initialises the whole process of capturing data and is the public interface
      * 
      * @name init
+	 * @param {array} - array of mapping objects from mappings.js
      */
     DataCapture.prototype.init = function(mappings) {
         mappings.forEach(function(mapping) {
